@@ -6,6 +6,8 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 
+import com.arquitecturajava.ejemplo006.Persona;
+
 public class Principal {
 
 	public static void main(String[] args) {
@@ -13,6 +15,10 @@ public class Principal {
 		// hashset es un conjunto sin oredenar
 		//Set<String> conjunto = new HashSet<String>();
 		Set<String> conjunto = new TreeSet<String>();
+		
+		Persona p1=new Persona("pepe","perez","madrid");
+		Persona p2=new Persona("ana","gomez","barcelona");
+		Persona p3=new Persona("juan","sanchez","bilbao");
 		
 		//olvidar que salga en el mismo orden que lo insertamos
 		conjunto.add("hola");

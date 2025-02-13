@@ -2,14 +2,12 @@ package com.arquitecturajava.ejemplo007;
 
 import java.util.Objects;
 
-public class Persona implements Comparable{
+public class Persona implements Comparable {
 
-	
 	private String nombre;
 	private String apellidos;
 	private String ciudad;
-	
-	
+
 	public String getApellidos() {
 		return apellidos;
 	}
@@ -34,7 +32,6 @@ public class Persona implements Comparable{
 		this.nombre = nombre;
 	}
 
-	
 	public Persona(String nombre, String apellidos, String ciudad) {
 		super();
 		this.nombre = nombre;
@@ -42,12 +39,8 @@ public class Persona implements Comparable{
 		this.ciudad = ciudad;
 	}
 
-
-	
-
-	
-	//dos personas con el mismo nombre tienen mismo hash
-	//no implica que dos personas con distinto nombre tengan distinto hash
+	// dos personas con el mismo nombre tienen mismo hash
+	// no implica que dos personas con distinto nombre tengan distinto hash
 	@Override
 	public int hashCode() {
 		return Objects.hash(nombre);
@@ -67,10 +60,11 @@ public class Persona implements Comparable{
 
 	@Override
 	public int compareTo(Object p) {
-		//casting
-		Persona personaParametro=(Persona)p;
+		// casting
+		Persona personaParametro = (Persona) p;
+		//apoyandome en el comparable de los Strings
 		return this.getApellidos().compareTo(personaParametro.getApellidos());
-		
+
 	}
 
 }
