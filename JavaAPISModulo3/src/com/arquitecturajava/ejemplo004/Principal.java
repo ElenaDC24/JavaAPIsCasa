@@ -15,7 +15,15 @@ public class Principal {
 		//no se insertaba porque no cabía
 		cajaGalletas.add(g3);
 		
-		System.out.println(cajaGalletas.precioTotal());
+		for(Galleta g:cajaGalletas) {
+			
+			System.out.println(g.getSabor());
+			System.out.println(g.getPrecio());
+		}
+		
+		//System.out.println(cajaGalletas.precioTotal());
+		
+		Caja<Libro> nuevaCaja= new Caja<Libro>();
 	}
 
 }
