@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="001inicio/src"/>
+	<classpathentry kind="src" path="002SentenciasControl/src"/>
+	<classpathentry kind="src" path="003Bucles/src"/>
+	<classpathentry kind="src" path="0047EjercicciosParaAprender/src"/>
+	<classpathentry kind="src" path="004Arrays/src"/>
+	<classpathentry kind="src" path="005Funciones/src"/>
+	<classpathentry kind="src" path="JavaAPIsCasa/001inicio/src"/>
+	<classpathentry kind="src" path="JavaAPIsCasa/002SentenciasControl/src"/>
+	<classpathentry kind="src" path="JavaAPIsCasa/003Bucles/src"/>
+	<classpathentry kind="src" path="JavaAPIsCasa/0047EjercicciosParaAprender/src"/>
+	<classpathentry kind="src" path="JavaAPIsCasa/004Arrays/src"/>
+	<classpathentry kind="src" path="JavaAPIsCasa/005Funciones/src"/>
+	<classpathentry kind="src" path="JavaAPIsCasa/JavaAPISModulo1/src"/>
+	<classpathentry kind="src" path="JavaAPIsCasa/JavaAPISModulo2/src"/>
+	<classpathentry kind="src" path="JavaAPIsCasa/JavaAPISModulo3/src"/>
+	<classpathentry kind="src" path="JavaAPISModulo1/src"/>
+	<classpathentry kind="src" path="JavaAPISModulo2/src"/>
+	<classpathentry kind="src" path="JavaAPISModulo3/src"/>
+	<classpathentry kind="output" path="JavaAPISModulo2/bin"/>
+</classpath>
